@@ -3,15 +3,29 @@ body {
   margin: 25px;
 }
 
+label {
+  color: black;
+  text-align: right;
+}
+
 fieldset {
   color: red;
   border: 1.5px solid red;
-  width: 60vw;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
 }
 
-td {
-  color: black;
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin: 5px 0;
 }
 
 input {
@@ -19,4 +33,18 @@ input {
   border: 1.5px solid red;
   background-color: #ffe9e9;
   height: 20px;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 20%;
+}
+
+.button {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1.5px solid red;
+  background-color: #ffe9e9;
+  height: 30px;
+  width: 150px;
+  box-shadow: red 2px 2px 2px;
+  margin: 20px 0 0 0;
 }

@@ -12,41 +12,35 @@
   <h1>Index Page of the MVC Application (Lab1)</h1>
   <form>
     <fieldset>
-      <legend>Personal Information</legend>
-      <table>
-        <tr>
-          <td>First Name:</td>
-          <td><input type="text" name="fName" /></td>
-        </tr>
-        <tr>
-          <td>Last Name:</td>
-          <td><input type="text" name="lName" /></td>
-        </tr>
-      </table>
+      <legend>Personal Information:</legend>
+      <div class="form-row">
+        <label>First Name:</label>
+        <input type="text" name="fName" />
+      </div>
+      <div class="form-row">
+        <label>Last Name:</label>
+        <input type="text" name="lName" />
+      </div>
     </fieldset>
     <fieldset>
       <legend>Birth Day:</legend>
-      <table>
-        <tr>
-          <td>Date:</td>
-          <td><input type="text" name="bDay" /></td>
-        </tr>
-      </table>
+      <div class="form-row">
+        <label>Date:</label>
+        <input type="text" name="bDay" />
+      </div>
     </fieldset>
     <fieldset>
       <legend>Sex:</legend>
-      <table>
-        <tr>
-          <td>Male</td>
-          <td><input type="radio" name="sex" value="male" checked></td>
-        </tr>
-        <tr>
-          <td>Female</td>
-          <td><input type="radio" name="sex" value="female"></td>
-        </tr>
-      </table>
+      <div class="form-row">
+        <label>Male</label>
+        <input type="radio" name="sex" value="male" checked>
+      </div>
+      <div class="form-row">
+        <label>Female</label>
+        <input type="radio" name="sex" value="female">
+      </div>
     </fieldset>
-    <input type="submit" />
+    <input type="submit" value="Envoyer" class="button">
   </form>
 </body>
 

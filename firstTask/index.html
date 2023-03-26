@@ -6,41 +6,42 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="myFirstStyle.css" />
+  <script type="text/javascript" src="myFirstScript.js"></script>
 </head>
 
 <body>
-  <h1>Index Page of the MVC Application (Lab1)</h1>
+  <h1 id="title">Index Page of the MVC Application (Lab1)</h1>
   <form>
     <fieldset>
       <legend>Personal Information:</legend>
       <div class="form-row">
         <label>First Name:</label>
-        <input type="text" name="fName" />
+        <input type="text" id="fName" name="fName" />
       </div>
       <div class="form-row">
         <label>Last Name:</label>
-        <input type="text" name="lName" />
+        <input type="text" id="lName" name="lName" />
       </div>
     </fieldset>
     <fieldset>
       <legend>Birth Day:</legend>
       <div class="form-row">
         <label>Date:</label>
-        <input type="text" name="bDay" />
+        <input type="text" id="bDay" name="bDay" />
       </div>
     </fieldset>
     <fieldset>
       <legend>Sex:</legend>
       <div class="form-row">
         <label>Male</label>
-        <input type="radio" name="sex" value="male" checked>
+        <input type="radio" id="sex" name="sex" value="male" checked>
       </div>
       <div class="form-row">
         <label>Female</label>
-        <input type="radio" name="sex" value="female">
+        <input type="radio" id="sex" name="sex" value="female">
       </div>
     </fieldset>
-    <input type="submit" value="Envoyer" class="button">
+    <input type="submit" value="Envoyer" onclick="checkForm()" class="button">
   </form>
 </body>
 

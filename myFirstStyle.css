@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 25px;
+}
+
+fieldset {
+  color: red;
+  border: 1.5px solid red;
+  width: 60vw;
+  margin-bottom: 10px;
+}
+
+td {
+  color: black;
+}
+
+input {
+  border-radius: 5px;
+  border: 1.5px solid red;
+  background-color: #ffe9e9;
+  height: 20px;
+}
